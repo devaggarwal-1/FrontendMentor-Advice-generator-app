@@ -14,3 +14,6 @@ async function getAdvice() {
 }
 
 btn.addEventListener('click', getAdvice)
+window.onload = function () {
+    getAdvice()
+}
